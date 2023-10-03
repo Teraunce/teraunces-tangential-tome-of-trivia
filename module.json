@@ -1,0 +1,161 @@
+{
+  "id": "pf2e-ponyfinder-traits-common",
+  "title": "PF2E Ponyfinder Traits Common",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "ponyfinder-foundryvtt-module",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "ponyfinder-tribes-of-everglow",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "princess-luminaces-guide-to-the-pony-pantheon",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "seas-of-everglow",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "This Package Contains Details about Traits introduced in Ponyfinder and serves as a common starting point. It is free to use.",
+  "authors": [
+    {
+      "name": "David Silver",
+      "discord": "davidsilver",
+      "url": "https://www.drivethrurpg.com/browse/pub/5559/Silver-Games-LLC",
+      "flags": {}
+    },
+    {
+      "name": "Teraunce Foaloke",
+      "discord": "teraunce",
+      "email": "Teraunce@gmail.com",
+      "flags": {}
+    },
+    {
+      "name": "Memely",
+      "discord": "memely",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/Teraunce/Ponyfinder-Common-Traits",
+  "packs": [
+    {
+      "name": "ponyfinder-trait-details",
+      "label": "Ponyfinder Trait Details",
+      "path": "packs/ponyfinder-trait-details",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "pf2e-ponyfinder-traits-common": {
+      "pf2e-homebrew": {
+        "creatureTraits": {
+          "lumidragon": "Luminous Dragon",
+          "ponysatyr": "Pony Satyr",
+          "corsikan": "Corsikan",
+          "kooshre": "Kooshre",
+		  "shimmershell": "Shimmershell Pony",
+		  "cloven": "Cloven",
+          "doppelganger": "Doppelganger",
+          "flutterpony": "Flutterpony",
+          "griffon": "Griffon",
+          "half-construct": "Half-Construct",
+          "krava": "Krava",
+          "phoenix-wolf": "Phoenix Wolf",
+          "ponykind": "Ponykind",
+          "purrsian": "Purrsian",
+          "steelheart": "Steelheart",
+          "sun-cat": "Sun Cat",
+		  "beast-folk": "Beast Folk",
+		  "masakio": "Masakio",
+		  "tembo": "Tembo",
+		  "twiga": "Twiga",
+		  "nedjes-sphinx": "Nedjes Sphinx",
+		  "deep-elf": "Deep Elf",
+		  "unspoken-spawn": "Unspoken Spawn",
+		  "reptilin": "Reptilin",
+		  "ruminant": "Ruminant"
+        },
+        "featTraits": {
+          "lumidragon": "Luminous Dragon",
+          "ponysatyr": "Pony Satyr",
+          "class": "Class",
+          "corsikan": "Corsikan",
+          "kooshre": "Kooshre",
+		  "shimmershell": "Shimmershell Pony",
+		  "cloven": "Cloven",
+          "doppelganger": "Doppelganger",
+          "flutterpony": "Flutterpony",
+          "griffon": "Griffon",
+          "half-construct": "Half-Construct",
+          "krava": "Krava",
+          "phoenix-wolf": "Phoenix Wolf",
+          "ponykind": "Ponykind",
+          "purrsian": "Purrsian",
+          "steelheart": "Steelheart",
+          "sun-cat": "Sun Cat",
+		  "beast-folk": "Beast Folk",
+		  "masakio": "Masakio",
+		  "tembo": "Tembo",
+		  "twiga": "Twiga",
+		  "nedjes-sphinx": "Nedjes Sphinx",
+		  "deep-elf": "Deep Elf",
+		  "unspoken-spawn": "Unspoken Spawn",
+		  "reptilin": "Reptilin",
+		  "ruminant": "Ruminant"
+        },
+		"weaponTraits": {
+			"oceanic": "Oceanic"
+		},
+		"spellTraits": {
+			"dynaheight": "Dynamic Heightening",
+			"forgotten-spell": "Forgotten"
+		}
+      }
+    }
+  },
+  "packFolders": [
+    {
+      "name": "Ponyfinder",
+      "sorting": "m",
+      "folders": [
+        {
+          "name": "PF2E Ponyfinder Traits Common",
+          "sorting": "m",
+          "packs": [
+            "ponyfinder-trait-details"
+          ]
+        }
+      ],
+      "packs": []
+    }
+  ],
+  "manifest": "https://github.com/Teraunce/Ponyfinder-Common-Traits/releases/latest/download/module.json",
+  "download": "https://github.com/Teraunce/Ponyfinder-Common-Traits/releases/latest/download/pf2e-ponyfinder-traits-common.zip"
+}
