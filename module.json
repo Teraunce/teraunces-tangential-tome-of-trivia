@@ -1,7 +1,7 @@
 {
   "id": "pf2e-ponyfinder-traits-common",
   "title": "PF2E Ponyfinder Traits Common",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -37,7 +37,7 @@
       }
     ]
   },
-  "description": "This Package Contains Details about Traits introduced in Ponyfinder and serves as a common starting point. It is free to use.",
+  "description": "This module contains traits introduced in the Ponyfinder Pathfinder 2e setting and serves as a common starting point. It is free to use.",
   "authors": [
     {
       "name": "David Silver",
@@ -57,31 +57,18 @@
       "flags": {}
     }
   ],
-  "url": "https://github.com/Teraunce/Ponyfinder-Common-Traits",
-  "packs": [
-    {
-      "name": "ponyfinder-trait-details",
-      "label": "Ponyfinder Trait Details",
-      "path": "packs/ponyfinder-trait-details",
-      "type": "JournalEntry",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
-    }
-  ],
+  "url": "https://github.com/Teraunce/ponyfinder-pf2e-traits",
+  "packs": [],
   "flags": {
-    "pf2e-ponyfinder-traits-common": {
+    "ponyfinder-traits": {
       "pf2e-homebrew": {
         "creatureTraits": {
-          "lumidragon": "Luminous Dragon",
-          "ponysatyr": "Pony Satyr",
+          "luminous-dragon": "Luminous Dragon",
+          "pony-satyr": "Pony Satyr",
           "corsikan": "Corsikan",
           "kooshre": "Kooshre",
-		  "shimmershell": "Shimmershell Pony",
-		  "cloven": "Cloven",
+          "shimmershell-pony": "Shimmershell Pony",
+          "cloven": "Cloven",
           "doppelganger": "Doppelganger",
           "flutterpony": "Flutterpony",
           "griffon": "Griffon",
@@ -92,24 +79,24 @@
           "purrsian": "Purrsian",
           "steelheart": "Steelheart",
           "sun-cat": "Sun Cat",
-		  "beast-folk": "Beast Folk",
-		  "masakio": "Masakio",
-		  "tembo": "Tembo",
-		  "twiga": "Twiga",
-		  "nedjes-sphinx": "Nedjes Sphinx",
-		  "deep-elf": "Deep Elf",
-		  "unspoken-spawn": "Unspoken Spawn",
-		  "reptilin": "Reptilin",
-		  "ruminant": "Ruminant"
+          "beast-folk": "Beast Folk",
+          "masakio": "Masakio",
+          "tembo": "Tembo",
+          "twiga": "Twiga",
+          "nedjes-sphinx": "Nedjes Sphinx",
+          "deep-elf": "Deep Elf",
+          "unspoken-spawn": "Unspoken Spawn",
+          "reptilin": "Reptilin",
+          "ruminant": "Ruminant"
         },
         "featTraits": {
-          "lumidragon": "Luminous Dragon",
-          "ponysatyr": "Pony Satyr",
+          "luminous-dragon": "Luminous Dragon",
+          "pony-satyr": "Pony Satyr",
           "class": "Class",
           "corsikan": "Corsikan",
           "kooshre": "Kooshre",
-		  "shimmershell": "Shimmershell Pony",
-		  "cloven": "Cloven",
+          "shimmershell-pony": "Shimmershell Pony",
+          "cloven": "Cloven",
           "doppelganger": "Doppelganger",
           "flutterpony": "Flutterpony",
           "griffon": "Griffon",
@@ -120,34 +107,34 @@
           "purrsian": "Purrsian",
           "steelheart": "Steelheart",
           "sun-cat": "Sun Cat",
-		  "beast-folk": "Beast Folk",
-		  "masakio": "Masakio",
-		  "tembo": "Tembo",
-		  "twiga": "Twiga",
-		  "nedjes-sphinx": "Nedjes Sphinx",
-		  "deep-elf": "Deep Elf",
-		  "unspoken-spawn": "Unspoken Spawn",
-		  "reptilin": "Reptilin",
-		  "ruminant": "Ruminant",
-		  "silver-psion": "Silver Psion",
-		  "planar-warrior": "Planar Warrior,"
+          "beast-folk": "Beast Folk",
+          "masakio": "Masakio",
+          "tembo": "Tembo",
+          "twiga": "Twiga",
+          "nedjes-sphinx": "Nedjes Sphinx",
+          "deep-elf": "Deep Elf",
+          "unspoken-spawn": "Unspoken Spawn",
+          "reptilin": "Reptilin",
+          "ruminant": "Ruminant",
+          "silver-psion": "Silver Psion",
+          "planar-warrior": "Planar Warrior,"
         },
-		"weaponTraits": {
-			"oceanic": "Oceanic",
-			"blocking": "Blocking"
-		},
-		"spellTraits": {
-			"dynaheight": "Dynamic Heightening",
-			"forgotten-spell": "Forgotten",
-			"centered-spell": "Centered"
-		},
-		"languages": {
-			"brightens": "Brightens",
-			"paolin": "Paolin"
-		},
-		"equipmentTraits": {
-			"oceanic": "Oceanic"
-		}
+        "weaponTraits": {
+          "oceanic": "Oceanic",
+          "blocking": "Blocking"
+        },
+        "spellTraits": {
+          "dynamic-heightening": "Dynamic Heightening",
+          "forgotten": "Forgotten",
+          "centered": "Centered"
+        },
+        "languages": {
+          "brightens": "Brightens",
+          "paolin": "Paolin"
+        },
+        "equipmentTraits": {
+          "oceanic": "Oceanic"
+        }
       }
     }
   },
@@ -159,14 +146,12 @@
         {
           "name": "PF2E Ponyfinder Traits Common",
           "sorting": "m",
-          "packs": [
-            "ponyfinder-trait-details"
-          ]
+          "packs": []
         }
       ],
       "packs": []
     }
   ],
-  "manifest": "https://github.com/Teraunce/Ponyfinder-Common-Traits/releases/latest/download/module.json",
-  "download": "https://github.com/Teraunce/Ponyfinder-Common-Traits/releases/latest/download/pf2e-ponyfinder-traits-common.zip"
+  "manifest": "https://github.com/Teraunce/ponyfinder-pf2e-traits/releases/latest/download/module.json",
+  "download": "https://github.com/Teraunce/ponyfinder-pf2e-traits/releases/latest/download/pf2e-ponyfinder-traits-common.zip"
 }
