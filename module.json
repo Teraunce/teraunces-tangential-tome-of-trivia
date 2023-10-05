@@ -1,7 +1,7 @@
 {
-  "id": "pf2e-ponyfinder-traits-common",
-  "title": "PF2E Ponyfinder Traits Common",
-  "version": "1.0.2",
+  "id": "ponyfinder-pf2e-traits",
+  "title": "Ponyfinder Pathfinder 2nd Edition Traits",
+  "version": "1.0.3",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -130,7 +130,8 @@
 		  "reptilin": "Reptilin",
 		  "ruminant": "Ruminant",
 		  "silver-psion": "Silver Psion",
-		  "planar-warrior": "Planar Warrior,"
+		  "planar-warrior": "Planar Warrior",
+          "spirit-tribe": "Spirit Tribe"
         },
 		"weaponTraits": {
 			"oceanic": "Oceanic",
@@ -157,7 +158,7 @@
       "sorting": "m",
       "folders": [
         {
-          "name": "PF2E Ponyfinder Traits Common",
+          "name": "Ponyfinder PF2e Traits",
           "sorting": "m",
           "packs": [
             "ponyfinder-trait-details"
