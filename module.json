@@ -1,7 +1,7 @@
 {
   "id": "pf2e-ponyfinder-traits-common",
   "title": "PF2E Ponyfinder Traits Common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -128,14 +128,25 @@
 		  "deep-elf": "Deep Elf",
 		  "unspoken-spawn": "Unspoken Spawn",
 		  "reptilin": "Reptilin",
-		  "ruminant": "Ruminant"
+		  "ruminant": "Ruminant",
+		  "silver-psion": "Silver Psion",
+		  "planar-warrior": "Planar Warrior,"
         },
 		"weaponTraits": {
-			"oceanic": "Oceanic"
+			"oceanic": "Oceanic",
+			"blocking": "Blocking"
 		},
 		"spellTraits": {
 			"dynaheight": "Dynamic Heightening",
-			"forgotten-spell": "Forgotten"
+			"forgotten-spell": "Forgotten",
+			"centered-spell": "Centered"
+		},
+		"languages": {
+			"brightens": "Brightens",
+			"paolin": "Paolin"
+		},
+		"equipmentTraits": {
+			"oceanic": "Oceanic"
 		}
       }
     }
