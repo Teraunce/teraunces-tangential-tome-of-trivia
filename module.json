@@ -1,6 +1,6 @@
 {
-  "id": "pf2e-ponyfinder-traits-common",
-  "title": "PF2E Ponyfinder Traits Common",
+  "id": "ponyfinder-pf2e-traits",
+  "title": "Ponyfinder Pathfinder 2nd Edition Traits",
   "version": "1.0.2",
   "compatibility": {
     "minimum": "11",
@@ -145,7 +145,7 @@
       "sorting": "m",
       "folders": [
         {
-          "name": "PF2E Ponyfinder Traits Common",
+          "name": "Ponyfinder PF2e Traits",
           "sorting": "m",
           "packs": []
         }
