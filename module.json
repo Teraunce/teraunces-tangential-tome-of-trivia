@@ -1,7 +1,7 @@
 {
   "id": "ponyfinder-pf2e-traits",
   "title": "Ponyfinder Pathfinder 2nd Edition Traits",
-  "version": "1.1.17",
+  "version": "1.1.17a",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -73,7 +73,7 @@
     }
   ],
   "flags": {
-    "ponyfinder-traits": {
+    "ponyfinder-pf2e-traits": {
       "pf2e-homebrew": {
         "creatureTraits": {
           "luminous-dragon": "Luminous Dragon",
