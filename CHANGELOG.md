@@ -1,4 +1,6 @@
-# 1.1.6 Minor version bump
+# 1.1.17 Minor Bugfix
+Fixed a couple formatting errors in the trait descriptions.
+# 1.1.16 Minor version bump
 Nevermind. I'm keeping my own repo to ensure it works.
 # 1.1.5 Memely Memes Part 3
 Bumped to coincide with the version number bump Memely made.
