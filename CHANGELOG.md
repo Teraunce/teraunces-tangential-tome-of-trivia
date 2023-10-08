@@ -1,3 +1,11 @@
+# 1.1.6 Minor version bump
+Nevermind. I'm keeping my own repo to ensure it works.
+# 1.1.5 Memely Memes Part 3
+Bumped to coincide with the version number bump Memely made.
+Memely can figure out what to do with the json files in the pack.
+Added description to new traits. Not sure if the language ones can be seen pre-taking.
+Renamed the pack to make sense.
+Edited Memely's workflow to include the readme, changelog, and pack.
 # 1.0.3a 2nd Release
 Added Workflows to the github.
 # 1.0.3a Memely Update 2 Part B
