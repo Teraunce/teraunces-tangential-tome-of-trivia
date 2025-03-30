@@ -3,7 +3,11 @@ This module contains useful traits and other things programmed by Teraunce. It s
 
 # Current Contents
 ABP-Lite
+
 Journals detailing traits
+
 A lot of traits
+
 Journal detailing an Arcanist Class I found
+
 Property Runes modified to be searchable
