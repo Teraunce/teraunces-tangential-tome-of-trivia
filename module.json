@@ -1,204 +1,379 @@
 {
-  "id": "ponyfinder-pf2e-traits",
-  "title": "Ponyfinder Pathfinder 2nd Edition Traits",
-  "version": "1.1.17b",
-  "compatibility": {
-    "minimum": "11",
-    "verified": "11"
-  },
-  "relationships": {
-    "systems": [
-      {
-        "id": "pf2e",
-        "type": "system",
-        "compatibility": {}
-      }
-    ],
-    "recommends": [
-      {
-        "id": "ponyfinder-foundryvtt-module",
-        "type": "module",
-        "compatibility": {}
-      },
-      {
-        "id": "ponyfinder-tribes-of-everglow",
-        "type": "module",
-        "compatibility": {}
-      },
-      {
-        "id": "princess-luminaces-guide-to-the-pony-pantheon",
-        "type": "module",
-        "compatibility": {}
-      },
-      {
-        "id": "seas-of-everglow",
-        "type": "module",
-        "compatibility": {}
-      }
-    ]
-  },
-  "description": "This module contains traits introduced in the Ponyfinder Pathfinder 2e setting and serves as a common starting point. It is free to use.",
-  "authors": [
-    {
-      "name": "David Silver",
-      "discord": "davidsilver",
-      "url": "https://www.drivethrurpg.com/browse/pub/5559/Silver-Games-LLC",
-      "flags": {}
-    },
-    {
-      "name": "Teraunce Foaloke",
-      "discord": "teraunce",
-      "email": "Teraunce@gmail.com",
-      "flags": {}
-    },
-    {
-      "name": "Memely",
-      "discord": "memely",
-      "flags": {}
-    }
-  ],
-  "url": "https://github.com/Teraunce/ponyfinder-pf2e-traits",
-  "packs": [
-    {
-      "name": "ponyfinder-core-details",
-      "label": "Ponyfinder Core Details",
-      "path": "packs/ponyfinder-trait-details",
-      "type": "JournalEntry",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
-    }
-  ],
-  "flags": {
-    "ponyfinder-pf2e-traits": {
-      "pf2e-homebrew": {
-        "creatureTraits": {
-          "luminous-dragon": "Luminous Dragon",
-          "pony-satyr": "Pony Satyr",
-          "corsikan": "Corsikan",
-          "kooshre": "Kooshre",
-          "shimmershell-pony": "Shimmershell Pony",
-          "cloven": "Cloven",
-          "doppelganger": "Doppelganger",
-          "flutterpony": "Flutterpony",
-          "griffon": "Griffon",
-          "half-construct": "Half-Construct",
-          "krava": "Krava",
-          "phoenix-wolf": "Phoenix Wolf",
-          "ponykind": "Ponykind",
-          "purrsian": "Purrsian",
-          "steelheart": "Steelheart",
-          "sun-cat": "Sun Cat",
-          "beast-folk": "Beast Folk",
-          "masakio": "Masakio",
-          "tembo": "Tembo",
-          "twiga": "Twiga",
-          "nedjes-sphinx": "Nedjes Sphinx",
-          "deep-elf": "Deep Elf",
-          "unspoken-spawn": "Unspoken Spawn",
-          "reptilin": "Reptilin",
-          "ruminant": "Ruminant"
-        },
-        "featTraits": {
-          "luminous-dragon": "Luminous Dragon",
-          "pony-satyr": "Pony Satyr",
-          "class-neutral": {
-			  "label":"Class Neutral",
-			  "description":"A feat with this trait can be taken by any class provided they meet the Requirements."
-		  },
-          "corsikan": "Corsikan",
-          "kooshre": "Kooshre",
-          "shimmershell-pony": "Shimmershell Pony",
-          "cloven": "Cloven",
-          "doppelganger": "Doppelganger",
-          "flutterpony": "Flutterpony",
-          "griffon": "Griffon",
-          "half-construct": "Half-Construct",
-          "krava": "Krava",
-          "phoenix-wolf": "Phoenix Wolf",
-          "ponykind": "Ponykind",
-          "purrsian": "Purrsian",
-          "steelheart": "Steelheart",
-          "sun-cat": "Sun Cat",
-          "beast-folk": "Beast Folk",
-          "masakio": "Masakio",
-          "tembo": "Tembo",
-          "twiga": "Twiga",
-          "nedjes-sphinx": "Nedjes Sphinx",
-          "deep-elf": "Deep Elf",
-          "unspoken-spawn": "Unspoken Spawn",
-          "reptilin": "Reptilin",
-          "ruminant": "Ruminant",
-          "silver-psion": "Silver Psion",
-          "planar-warrior": "Planar Warrior",
-          "spirit-tribe": "Spirit Tribe"
-        },
-        "weaponTraits": {
-          "oceanic": {
-			  "label":"Oceanic",
-			  "description":"<p>An Oceanic weapon with functions without penalties when used underwater. Whether it's by materials, construction, or method of use, it can be swung, thrust, or clubbed with as effectively as a weapon used outside of water.</p><p>Any weapons constructed by undersea races are likely to be Oceanic and have the appropriate Trait, Property, or Quality depending on your system.</p><p>To purchase an Oceanic Weapon that does not normally have this ability, it costs triple the base cost of a standard item.</p>"
-		  },
-          "blocking": {
-			  "label":"Blocking",
-			  "description":"A weapon with Blocking can be used to block an attack and raised like a shield. Currently this is implemented by providing a matching shield item."
-		  }
-        },
-        "spellTraits": {
-          "dynamic-heightening": {
-			  "label": "Dynamic Heightening",
-			  "description":"Spells with this trait do not gain all applicable heightening that is based on the addition of levels (+1, +2, etc.). The caster must choose which heightened effects will apply as if purchasing them with the extra levels the spell is heightened by. The same heighten effect can be purchased multiple times. These decisions are made while casting the spell."
-			  },
-          "forgotten": {
-			  "label":"Forgotten",
-			  "description":"<p>Spells with the forgotten descriptor are lost to time. They are not available to be taken on level up, found in stores, or accessible even to divine casters. Only after finding the spell and studying it can the spell be accessed. A wizard could then scribe it into their book, and a cleric could pray for the spell the next time they regain spells.</p><p>This is specific to Everglow. If you’re running a different campaign, you could mark entirely different spells as forgotten. You could even do so for your own Everglow campaign, as the GM. Forgotten is not written in stone as a mechanical requirement for the spell. Instead, it is another tool to increase mystery and provide treasure for your players to go for that isn’t a shiny artifact, but instead something in a book that may be just as valuable.</p>"
-		  },
-          "centered": {
-			  "label":"Centered",
-			  "description":"Spells and actions with this trait require you be psionically centered to use. Many expend this center as a result."
-		  }
-        },
-        "languages": {
-          "brightens": {
-			  "label":"Brightens",
-			  "description":"Brightens serves as Common for Humanoid settlements in Everglow. Named after a Human empire of the same name, it has spread far and wide as a trade language."
-		  },
-          "paolin": {
-			  "label":"Paolin",
-			  "description":"Paolin serves as the other Humanoid Common. Less well known and used, it is still likely you can find someone in a humanoid settlement who can speak it. It does become more common the further from Everglow you get."
-        },
-        "equipmentTraits": {
-          "oceanic": {
-			  "label":"Oceanic",
-			  "description":"<p>An Oceanic weapon with functions without penalties when used underwater. Whether it's by materials, construction, or method of use, it can be swung, thrust, or clubbed with as effectively as a weapon used outside of water.</p><p>Any weapons constructed by undersea races are likely to be Oceanic and have the appropriate Trait, Property, or Quality depending on your system.</p><p>To purchase an Oceanic Weapon that does not normally have this ability, it costs triple the base cost of a standard item.</p>"
-		  },
-          "blocking": {
-			  "label":"Blocking",
-			  "description":"A weapon with Blocking can be used to block an attack and raised like a shield. Currently this is implemented by providing a matching shield item."
-		  }
+	"id":"teraunces-tangential-tome-of-trivia",
+	"title":"Teraunces Tangential Tome of Trivia",
+	"version":"1.2.0",
+	"compatibility":{
+		"minimum":"11",
+		"verified":"11"
+	},
+	"relationships":{
+		"systems":[
+			{
+				"id":"pf2e",
+				"type":"system",
+				"compatibility":{
+					
+				}
+			}
+		],
+		"recommends":[
+			{
+				"id":"ponyfinder-foundryvtt-module",
+				"type":"module",
+				"compatibility":{
+					
+				}
+			},
+			{
+				"id":"ponyfinder-tribes-of-everglow",
+				"type":"module",
+				"compatibility":{
+					
+				}
+			},
+			{
+				"id":"princess-luminaces-guide-to-the-pony-pantheon",
+				"type":"module",
+				"compatibility":{
+					
+				}
+			},
+			{
+				"id":"seas-of-everglow",
+				"type":"module",
+				"compatibility":{
+					
+				}
+			}
+		]
+	},
+	"description":"This module contains useful traits and other things programmed by Teraunce. It serves as a library for other modules and may contain fixed versions of specific broken things.",
+	"authors":[
+		{
+			"name":"David Silver",
+			"discord":"davidsilver",
+			"url":"https://www.drivethrurpg.com/browse/pub/5559/Silver-Games-LLC",
+			"flags":{
+				
+			}
+		},
+		{
+			"name":"Teraunce Foaloke",
+			"discord":"teraunce",
+			"email":"Teraunce@gmail.com",
+			"flags":{
+				
+			}
 		}
-      }
-    }
-  }
-  },
-  "packFolders": [
-    {
-      "name": "Ponyfinder",
-      "sorting": "m",
-      "folders": [
-        {
-          "name": "Ponyfinder PF2e Traits",
-          "sorting": "m",
-          "packs": [
-            "ponyfinder-core-details"
-          ]
-        }
-      ],
-      "packs": []
-    }
-  ],
-  "manifest": "https://github.com/Teraunce/ponyfinder-pf2e-traits/releases/latest/download/module.json",
-  "download": "https://github.com/Teraunce/ponyfinder-pf2e-traits/releases/latest/download/pf2e-ponyfinder-traits-common.zip"
+	],
+	"url":"https://github.com/Teraunce/teraunces-tangential-tome-of-trivia",
+	"packs":[
+		{
+			"name":"teraunces-tangential-tome-of-trivia-journals",
+			"label":"Journals",
+			"path":"packs/teraunces-tangential-tome-of-trivia-journals",
+			"type":"JournalEntry",
+			"ownership":{
+				"PLAYER":"OBSERVER",
+				"ASSISTANT":"OWNER"
+			},
+			"system":"pf2e",
+			"flags":{
+				
+			}
+		},
+		{
+			"name":"teraunces-tangential-tome-of-trivia-actors",
+			"label":"Actors",
+			"path":"packs/teraunces-tangential-tome-of-trivia-actors",
+			"type":"Actor",
+			"ownership":{
+				"PLAYER":"OBSERVER",
+				"ASSISTANT":"OWNER"
+			},
+			"system":"pf2e",
+			"flags":{
+				
+			}
+		},
+		{
+			"name":"teraunces-tangential-tome-of-trivia-items",
+			"label":"Items",
+			"path":"packs/teraunces-tangential-tome-of-trivia-items",
+			"type":"Item",
+			"ownership":{
+				"PLAYER":"OBSERVER",
+				"ASSISTANT":"OWNER"
+			},
+			"system":"pf2e",
+			"flags":{
+				
+			}
+		},
+		{
+			"name":"teraunces-tangential-tome-of-trivia-tables",
+			"label":"Tables",
+			"path":"packs/teraunces-tangential-tome-of-trivia-tables",
+			"type":"Rolltable",
+			"ownership":{
+				"PLAYER":"OBSERVER",
+				"ASSISTANT":"OWNER"
+			},
+			"system":"pf2e",
+			"flags":{
+				
+			}
+		}
+	],
+	"flags":{
+		"teraunces-tangential-tome-of-trivia":{
+			"pf2e-homebrew":{
+				"creatureTraits":{
+					"luminous-dragon":"Luminous Dragon",
+					"pony-satyr":"Pony Satyr",
+					"corsikan":"Corsikan",
+					"kooshre":"Kooshre",
+					"shimmershell-pony":"Shimmershell Pony",
+					"cloven":"Cloven",
+					"doppelganger":"Doppelganger",
+					"flutterpony":"Flutterpony",
+					"griffon":"Griffon",
+					"half-construct":"Half-Construct",
+					"krava":"Krava",
+					"phoenix-wolf":"Phoenix Wolf",
+					"ponykind":"Ponykind",
+					"purrsian":"Purrsian",
+					"steelheart":"Steelheart",
+					"sun-cat":"Sun Cat",
+					"beast-folk":"Beast Folk",
+					"masakio":"Masakio",
+					"tembo":"Tembo",
+					"twiga":"Twiga",
+					"nedjes-sphinx":"Nedjes Sphinx",
+					"deep-elf":"Deep Elf",
+					"unspoken-spawn":"Unspoken Spawn",
+					"reptilin":"Reptilin",
+					"ruminant":"Ruminant",
+					"enhanced":"The Enhanced",
+					"gloamwing":"Gloamwing"
+				},
+				"featTraits":{
+					"luminous-dragon":"Luminous Dragon",
+					"pony-satyr":"Pony Satyr",
+					"class-neutral":{
+						"label":"Class Neutral",
+						"description":"A feat with this trait can be taken by any class provided they meet the Requirements."
+					},
+					"corsikan":"Corsikan",
+					"kooshre":"Kooshre",
+					"shimmershell-pony":"Shimmershell Pony",
+					"cloven":"Cloven",
+					"doppelganger":"Doppelganger",
+					"flutterpony":"Flutterpony",
+					"griffon":"Griffon",
+					"half-construct":"Half-Construct",
+					"krava":"Krava",
+					"phoenix-wolf":"Phoenix Wolf",
+					"ponykind":"Ponykind",
+					"purrsian":"Purrsian",
+					"steelheart":"Steelheart",
+					"sun-cat":"Sun Cat",
+					"beast-folk":"Beast Folk",
+					"masakio":"Masakio",
+					"tembo":"Tembo",
+					"twiga":"Twiga",
+					"nedjes-sphinx":"Nedjes Sphinx",
+					"deep-elf":"Deep Elf",
+					"unspoken-spawn":"Unspoken Spawn",
+					"reptilin":"Reptilin",
+					"ruminant":"Ruminant",
+					"silver-psion":"Silver Psion",
+					"planar-warrior":"Planar Warrior",
+					"spirit-tribe":"Spirit Tribe",
+					"enhanced":"The Enhanced",
+					"gloamwing":"Gloamwing",
+					"ter-arcanist":"Arcanist"
+				},
+				"weaponTraits":{
+					"oceanic":{
+						"label":"Oceanic",
+						"description":"<p>An Oceanic weapon with functions without penalties when used underwater. Whether it's by materials, construction, or method of use, it can be swung, thrust, or clubbed with as effectively as a weapon used outside of water.</p><p>Any weapons constructed by undersea races are likely to be Oceanic and have the appropriate Trait, Property, or Quality depending on your system.</p><p>To purchase an Oceanic Weapon that does not normally have this ability, it costs triple the base cost of a standard item.</p>"
+					},
+					"blocking":{
+						"label":"Blocking",
+						"description":"A weapon with Blocking can be used to block an attack and raised like a shield. Currently this is implemented by providing a matching shield item."
+					},
+					"jury-rigged":{
+						"label":"Jury-Rigged",
+						"description":"A Jury-Rigged Item can be Modified as though it had the Scrap trait."
+					},
+					"scrap":{
+						"label":"Scrap",
+						"description":"An item with the Scrap trait can be modified by Modifications. When using Scrap ammunition with a Scrap firearm the misfire chance is 1 worse."
+					},
+					"capacity-1":{
+						"label":"Capacity 1",
+						"description":"This weapon can fire this much ammo before needing to reload."
+					},
+					"capacity-2":{
+						"label":"Capacity 2",
+						"description":"This weapon can fire this much ammo before needing to reload."
+					},
+					"capacity-3":{
+						"label":"Capacity 3",
+						"description":"This weapon can fire this much ammo before needing to reload."
+					},
+					"capacity-4":{
+						"label":"Capacity 4",
+						"description":"This weapon can fire this much ammo before needing to reload."
+					},
+					"capacity-5":{
+						"label":"Capacity 5",
+						"description":"This weapon can fire this much ammo before needing to reload."
+					},
+					"capacity-6":{
+						"label":"Capacity 6",
+						"description":"This weapon can fire this much ammo before needing to reload."
+					},
+					"capacity-7":{
+						"label":"Capacity 7",
+						"description":"This weapon can fire this much ammo before needing to reload."
+					},
+					"capacity-8":{
+						"label":"Capacity 8",
+						"description":"This weapon can fire this much ammo before needing to reload."
+					},
+					"capacity-9":{
+						"label":"Capacity 9",
+						"description":"This weapon can fire this much ammo before needing to reload."
+					},
+					"capacity-10":{
+						"label":"Capacity 10",
+						"description":"This weapon can fire this much ammo before needing to reload."
+					},
+					"capacity-11":{
+						"label":"Capacity 11",
+						"description":"This weapon can fire this much ammo before needing to reload."
+					},
+					"capacity-12":{
+						"label":"Capacity 12",
+						"description":"This weapon can fire this much ammo before needing to reload."
+					}
+				},
+				"spellTraits":{
+					"dynamic-heightening":{
+						"label":"Dynamic Heightening",
+						"description":"Spells with this trait do not gain all applicable heightening that is based on the addition of levels (+1, +2, etc.). The caster must choose which heightened effects will apply as if purchasing them with the extra levels the spell is heightened by. The same heighten effect can be purchased multiple times. These decisions are made while casting the spell."
+					},
+					"forgotten":{
+						"label":"Forgotten",
+						"description":"<p>Spells with the forgotten descriptor are lost to time. They are not available to be taken on level up, found in stores, or accessible even to divine casters. Only after finding the spell and studying it can the spell be accessed. A wizard could then scribe it into their book, and a cleric could pray for the spell the next time they regain spells.</p><p>This is specific to Everglow. If you’re running a different campaign, you could mark entirely different spells as forgotten. You could even do so for your own Everglow campaign, as the GM. Forgotten is not written in stone as a mechanical requirement for the spell. Instead, it is another tool to increase mystery and provide treasure for your players to go for that isn’t a shiny artifact, but instead something in a book that may be just as valuable.</p>"
+					},
+					"centered":{
+						"label":"Centered",
+						"description":"Spells and actions with this trait require you be psionically centered to use. Many expend this center as a result."
+					}
+				},
+				"languages":{
+					"brightens":{
+						"label":"Brightens",
+						"description":"Brightens serves as Common for Humanoid settlements in Everglow. Named after a Human empire of the same name, it has spread far and wide as a trade language."
+					},
+					"paolin":{
+						"label":"Paolin",
+						"description":"Paolin serves as the other Humanoid Common. Less well known and used, it is still likely you can find someone in a humanoid settlement who can speak it. It does become more common the further from Everglow you get."
+					}
+				},
+				"equipmentTraits":{
+					"oceanic":{
+						"label":"Oceanic",
+						"description":"<p>An Oceanic weapon with functions without penalties when used underwater. Whether it's by materials, construction, or method of use, it can be swung, thrust, or clubbed with as effectively as a weapon used outside of water.</p><p>Any weapons constructed by undersea races are likely to be Oceanic and have the appropriate Trait, Property, or Quality depending on your system.</p><p>To purchase an Oceanic Weapon that does not normally have this ability, it costs triple the base cost of a standard item.</p>"
+					},
+					"blocking":{
+						"label":"Blocking",
+						"description":"A weapon with Blocking can be used to block an attack and raised like a shield. Currently this is implemented by providing a matching shield item."
+					},
+					"modification":{
+						"label":"Modification",
+						"description":"A Modification can change a weapon, shield, or piece of Armor. Some of them require Empowerment to function."
+					},
+					"jury-rigged":{
+						"label":"Jury-Rigged",
+						"description":"A Jury-Rigged Item can be Modified as though it had the Scrap trait."
+					},
+					"scrap":{
+						"label":"Scrap",
+						"description":"An item with the Scrap trait can be modified by Modifications. When using Scrap ammunition with a Scrap firearm the misfire chance is 1 worse."
+					},
+					"weapon-runes":{
+						"label":"Weapon Rune",
+						"description":"This rune can be applied to a weapon."
+					},
+					"armor-runes":{
+						"label":"Armor Rune",
+						"description":"This rune can be applied to a piece of armor."
+					},
+					"shield-runes":{
+						"label":"Shield Rune",
+						"description":"This rune can be applied to a shield."
+					}
+				},
+				"shieldTraits":{
+					"jury-rigged":{
+						"label":"Jury-Rigged",
+						"description":"A Jury-Rigged Item can be Modified as though it had the Scrap trait."
+					},
+					"scrap":{
+						"label":"Scrap",
+						"description":"An item with the Scrap trait can be modified by Modifications. When using Scrap ammunition with a Scrap firearm the misfire chance is 1 worse."
+					}
+				},
+				"armorTraits":{
+					"jury-rigged":{
+						"label":"Jury-Rigged",
+						"description":"A Jury-Rigged Item can be Modified as though it had the Scrap trait."
+					},
+					"scrap":{
+						"label":"Scrap",
+						"description":"An item with the Scrap trait can be modified by Modifications. When using Scrap ammunition with a Scrap firearm the misfire chance is 1 worse."
+					}
+				},
+				"baseArmors":{
+					"scavenged-armors":{
+						"label":"Scavenged Armor",
+						"description":"Not always scavenged directly, such armors reflect whatever resources are easily available in the area they are made. Like most scrap equipment, their appearance can vary wildly, from wearing a rubber tire to old sport equipment repurposed to survival gear. Often clunkier than traditional armor, they can be easily modified to suit the needs of the wearer in the hands of a skilled artisan. All scavenged armors have the scrap quality."
+					}
+					},
+				"baseWeapons":{
+					"pipe-weapon":{
+						"label":"Pipe Weapon",
+						"description":"The basic concept of a firearm was not forgotten. How to assemble one of the pre-Blaze models properly is beyond the means of the ashen age, but cobbling together pieces and forging it into something that could serve as a stand-in is possible. Usually with smooth bores and made of different pieces welded together, they have a very distinctive appearance. While many are jury-rigged to use common scrap-bullets, if the user is blessed with the real thing, their misfire is reduced by 1. Though they come in many, more specific, varieties, we will present the basic models and allow your imagination to fill in the holes. Firearms without the scrap quality are all considered priceless and beyond the current methods of production."
+				}
+				}
+			}
+		}
+	},
+	"packFolders":[
+		{
+			"name":"Teraunce",
+			"sorting":"m",
+			"folders":[
+				{
+					"name":"Tangential Tome of Trivia",
+					"sorting":"m",
+					"packs":[
+						"teraunces-tangential-tome-of-trivia-journals",
+						"teraunces-tangential-tome-of-trivia-items",
+						"teraunces-tangential-tome-of-trivia-actors",
+						"teraunces-tangential-tome-of-trivia-tables"
+					]
+				}
+			],
+			"packs":[
+				
+			]
+		}
+	],
+	"manifest":"https://github.com/Teraunce/teraunces-tangential-tome-of-trivia/releases/latest/download/module.json",
+	"download":"https://github.com/Teraunce/teraunces-tangential-tome-of-trivia/releases/latest/download/TTTT.zip"
 }
