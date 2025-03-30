@@ -18,7 +18,7 @@ jobs:
 
     - name: Zip module.js and journals
       run: |
-        zip -r pf2e-ponyfinder-traits-common.zip module.json CHANGELOG.md README.md packs
+        zip -r TTTT.zip module.json CHANGELOG.md README.md packs
 
     - name: Extract version from module.json
       id: get_version
