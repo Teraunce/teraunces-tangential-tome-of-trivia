@@ -1,7 +1,10 @@
 # 1.2.0
 Added ABP-Lite
+
 Renamed Mod
+
 Added Traits and fixed a few things
+
 Setup Start of this cool Arcanist Homebrew class I found for 1.30.
 # 1.1.17 Minor Bugfix
 Fixed a couple formatting errors in the trait descriptions.
